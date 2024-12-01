@@ -1,0 +1,89 @@
+@import "../../../styles/_app";
+.wrapper {
+  padding: 20px 30px;
+}
+.product{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #333;
+}
+.product-title {
+  font-size: 30px;
+  color: rgb(179, 153, 6);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+.product-items {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.btn-cancel {
+  margin-top: 20px;
+  margin-right: 40px;
+  padding: 10px 20px;
+  background: #000;
+  color: #cdbc7a;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  @include mobile {
+    font-size: 12px;
+  }
+}
+.btn-payment {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #000;
+  color: #cdbc7a;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  @include mobile {
+    font-size: 12px;
+  }
+}
+
+.item-id {
+  color: rgb(14, 14, 14);
+  span {
+    margin-right: 10px;
+    color: rgb(16, 16, 16);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .item-quantity {
+    margin-left: 20px;
+  }
+  @include mobile {
+    font-size: 14px;
+    margin-right: 5px;
+    .item-quantity {
+      margin-left: 0px;
+    }
+  }
+}
+.product-name {
+  color: rgb(21, 21, 21);
+
+  span {
+    margin-right: 10px;
+    color: rgb(23, 23, 23);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  @include mobile {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+.success-title {
+  color: rgb(164, 153, 9);
+  font-weight: bold;
+  padding-top: 25px;
+  margin-top: 10px;
+  border-top: 1px solid #000;
+  text-transform: uppercase;
+}

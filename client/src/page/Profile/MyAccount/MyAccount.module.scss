@@ -1,0 +1,20 @@
+@import "../../../styles/_app";
+.myaccount{
+    padding: 20px 30px;
+}
+.username{
+    color: rgb(13, 13, 13);
+    span{
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+}
+.email{
+    color: rgb(14, 13, 13);
+    span{
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+}

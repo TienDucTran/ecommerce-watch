@@ -1,0 +1,131 @@
+@import "../../styles/_responsive";
+.wrapper {
+  overflow: hidden;
+}
+
+.banner-slides {
+  background: #0a1624;
+  width: 100%;
+  height: 100%;
+
+  .swiper {
+    max-width: 2000px;
+    margin: auto;
+    height: 700px;
+    @include tablet {
+      width: 100%;
+      height: 300px;
+    }
+    @include mobile {
+      width: 100%;
+      height: 150px;
+    }
+  }
+  .swiper-slide {
+    width: 100%;
+    position: relative;
+  }
+  .slide-block {
+    position: absolute;
+    color: #c3071d;
+    left: 15%;
+    top: 35%;
+    text-align: center;
+    @include tablet {
+      left: 10%;
+      top: 25%;
+    }
+    @include mobile {
+      display: none;
+    }
+  }
+
+  .slide-title{
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    @include tablet {
+      font-size: 1.5rem;
+    }
+    @include mobile {
+      width: 100%;
+      height: 150px;
+    }
+  }
+  .btn-start{
+    margin-top: 30px;
+    padding: 10px 80px;
+    background: #000;
+    color: #cdbc7a;
+    cursor: pointer;
+    font-size: 18px;
+    @include tablet {
+      font-size: 1.5rem;
+    }
+    @include mobile {
+      width: 100%;
+      height: 150px;
+    }
+    
+  }
+  .slide-desc{
+    font-weight: bolder;
+    font-size: 4rem;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    @include tablet {
+      font-size: 1.5rem;
+    }
+    @include mobile {
+      width: 100%;
+      height: 150px;
+    }
+  }
+  .slide-text{
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    @include tablet {
+      font-size: 1.5rem;
+    }
+    @include mobile {
+      width: 100%;
+      height: 150px;
+    }
+  }
+  .img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    @include tablet {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .custom-pagination {
+    background: #e9e2cf;
+    width: 40px;
+    height: 4px;
+    border-radius: 0;
+  }
+}
+
+.no-data-banner {
+  background: #ffc0c0;
+  color: #ee0e0e;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ee0e0e;
+}
+
+.data-desc {
+  text-align: center;
+  background: rgb(217, 215, 215);
+  padding: 10px 0;
+  color: rgb(67, 66, 66);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
