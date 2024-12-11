@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/ecommerce-watch/static/css/main.c7ee3738.css",
+    "main.js": "/ecommerce-watch/static/js/main.8b1490d2.js",
+    "static/media/banner3.jpg": "/ecommerce-watch/static/media/banner3.1b1436d447c387e1e3df.jpg",
+    "static/media/man.jpg": "/ecommerce-watch/static/media/man.ab84c15b87803ee3cfe2.jpg",
+    "static/media/banner5.jpg": "/ecommerce-watch/static/media/banner5.474ed8592aa1a4092268.jpg",
+    "static/media/banner2.jpg": "/ecommerce-watch/static/media/banner2.8e89caac2b675a0a745d.jpg",
+    "static/media/banner7.jpg": "/ecommerce-watch/static/media/banner7.93ed492cb4b0578a4dc5.jpg",
+    "static/media/banner11.jpg": "/ecommerce-watch/static/media/banner11.e8893ad56e17fd50dab9.jpg",
+    "static/media/bgdep.png": "/ecommerce-watch/static/media/bgdep.b00f09deca31d2dd2dbf.png",
+    "static/media/banner8.jpg": "/ecommerce-watch/static/media/banner8.f38616821d05831c3799.jpg",
+    "static/media/banner9.jpg": "/ecommerce-watch/static/media/banner9.921d7fcfeb14cf4bbea7.jpg",
+    "static/media/banner10.jpg": "/ecommerce-watch/static/media/banner10.6b1dd6f369084cdb3edc.jpg",
+    "static/media/2.png": "/ecommerce-watch/static/media/2.73da694fc7b673d09abe.png",
+    "static/media/women.jpg": "/ecommerce-watch/static/media/women.676e3c055bee68058b1c.jpg",
+    "static/media/banner6.jpg": "/ecommerce-watch/static/media/banner6.7db5a1a2b36b1623ccac.jpg",
+    "static/media/colection.jpg": "/ecommerce-watch/static/media/colection.09aa01635ebd99235d8e.jpg",
+    "static/media/banner4.jpg": "/ecommerce-watch/static/media/banner4.6a187a1c5104e8c2585e.jpg",
+    "static/media/vn.png": "/ecommerce-watch/static/media/vn.123b2254ca4d06e42f8d.png",
+    "static/media/banner1.jpg": "/ecommerce-watch/static/media/banner1.57e63bb633a567b13853.jpg",
+    "static/media/Watch Hshop.png": "/ecommerce-watch/static/media/Watch Hshop.172e37487ff398145461.png",
+    "static/media/1.png": "/ecommerce-watch/static/media/1.32b1de0942c7de2f12b4.png",
+    "static/media/th.jpg": "/ecommerce-watch/static/media/th.211201de5fdb7357c5ae.jpg",
+    "static/media/au.png": "/ecommerce-watch/static/media/au.16d12fcb9440909d4f95.png",
+    "static/media/4.png": "/ecommerce-watch/static/media/4.e01530254af26f75d030.png",
+    "index.html": "/ecommerce-watch/index.html",
+    "static/media/getFetch.cjs": "/ecommerce-watch/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.c7ee3738.css.map": "/ecommerce-watch/static/css/main.c7ee3738.css.map",
+    "main.8b1490d2.js.map": "/ecommerce-watch/static/js/main.8b1490d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ee3738.css",
+    "static/js/main.8b1490d2.js"
+  ]
+}
