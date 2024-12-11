@@ -17,7 +17,7 @@ const ProductList = () => {
   const [sort, setSort] = useState('price');
   const handleChange = (e) => {
   const { name, value } = e.target;
-  if (name === 'color' && value === 'Color') {
+  if ((name === 'color' && value === 'Color') ) {
     // Xóa bộ lọc màu nếu giá trị là "Color"
     const { color, ...restFilters } = filter;
     setFilter(restFilters);
